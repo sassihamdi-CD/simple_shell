@@ -1,11 +1,6 @@
 
 # shell project
 
-
-
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
 # Repository Description
 This repository contains the files to simulate a basic Unix Shell with its respective commands. It uses the POSIX API to implement many of the same functionalities of the first Ken Thompson's Shell and It is made to carry out the 0x16. C - Simple Shell project at ALX Africa.
 
