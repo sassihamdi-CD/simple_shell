@@ -27,7 +27,7 @@ This simple shell is a Shell interface written in C programming language that gi
 
 # Requirements:
 
-[Operating System: Ubuntu 14.04 LTS](https://ubuntu.com/download/desktop)
+Operating System: [Ubuntu 14.04 LTS](https://ubuntu.com/download/desktop)
 
 Compiler: GCC 4.8.4
 
