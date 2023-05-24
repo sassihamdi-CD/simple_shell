@@ -6,6 +6,7 @@
  *
  * Return: nothing, but sets errno.
  */
+
 void expand_variables(data_of_program *data)
 {
 	int i, j;
@@ -56,6 +57,7 @@ void expand_variables(data_of_program *data)
  *
  * Return: nothing, but sets errno.
  */
+
 void expand_alias(data_of_program *data)
 {
 	int i, j, was_expanded = 0;
@@ -98,6 +100,7 @@ void expand_alias(data_of_program *data)
  * @str_to_add: string to be copied in the buffer
  * Return: nothing, but sets errno.
  */
+
 int buffer_add(char *buffer, char *str_to_add)
 {
 	int length, i;

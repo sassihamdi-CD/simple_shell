@@ -5,6 +5,7 @@
  * @data: struct for the program's data
  * Return: zero if sucess, or other number if its declared in the arguments
  */
+
 int builtin_exit(data_of_program *data)
 {
 	int i;
@@ -29,6 +30,7 @@ int builtin_exit(data_of_program *data)
  * @data: struct for the program's data
  * Return: zero if sucess, or other number if its declared in the arguments
  */
+
 int builtin_cd(data_of_program *data)
 {
 	char *dir_home = env_get_key("HOME", data), *dir_old = NULL;
@@ -68,6 +70,7 @@ int builtin_cd(data_of_program *data)
  * @new_dir: path to be set as work directory
  * Return: zero if sucess, or other number if its declared in the arguments
  */
+
 int set_work_directory(data_of_program *data, char *new_dir)
 {
 	char old_dir[128] = {0};
@@ -94,6 +97,7 @@ int set_work_directory(data_of_program *data, char *new_dir)
  * @data: struct for the program's data
  * Return: zero if sucess, or other number if its declared in the arguments
  */
+
 int builtin_help(data_of_program *data)
 {
 	int i, length = 0;
@@ -140,6 +144,7 @@ int builtin_help(data_of_program *data)
  * @data: struct for the program's data
  * Return: zero if sucess, or other number if its declared in the arguments
  */
+
 int builtin_alias(data_of_program *data)
 {
 	int i = 0;
