@@ -30,6 +30,7 @@
  * @env: copy of the environ
  * @alias_list: array of pointers with aliases.
  */
+
 typedef struct info
 {
 	char *program_name;
@@ -47,6 +48,7 @@ typedef struct info
  * @builtin: the name of the builtin
  * @function: the associated function to be called for each builtin
  */
+
 typedef struct builtins
 {
 	char *builtin;
