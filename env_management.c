@@ -6,6 +6,7 @@
  * @data: struct of the program's data
  * Return: a pointer to the value of the variable or NULL if it doesn't exist
  */
+
 char *env_get_key(char *key, data_of_program *data)
 {
 	int i, key_length = 0;
@@ -78,6 +79,7 @@ int env_set_key(char *key, char *value, data_of_program *data)
  * @data: the sructure of the program's data
  * Return: 1 if the key was removed, 0 if the key does not exist;
  */
+
 int env_remove_key(char *key, data_of_program *data)
 {
 	int i, key_length = 0;
@@ -116,6 +118,7 @@ int env_remove_key(char *key, data_of_program *data)
  * @data: struct for the program's data
  * Return: nothing
  */
+
 void print_environ(data_of_program *data)
 {
 	int j;
