@@ -29,7 +29,7 @@ This simple shell is a Shell interface written in C programming language that gi
 
 Operating System: [Ubuntu 14.04 LTS](https://ubuntu.com/download/desktop)
 
-Compiler: GCC 4.8.4
+Compiler: [GCC 4.8.4](https://gcc.gnu.org/gcc-4.8/)
 
 # Features:
 + This program displays a prompt and waits that the user types a command. A command line always ends with a new line (when user push ENTER key).
