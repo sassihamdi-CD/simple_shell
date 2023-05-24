@@ -12,7 +12,7 @@ This simple shell is a Shell interface written in C programming language that gi
 ## Acknowledgements
 
  - [ALX Community](https://www.alxafrica.com/)
- - tip to anyone whose code was used
+ - Tip to anyone whose code was used
 
  # General
  + Allowed editors: vi, vim, emacs
