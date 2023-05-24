@@ -12,6 +12,7 @@
 
 /************* FORMATTED STRING FOR HELP BUILT IN **************/
 
+
 #define HELP_CD_MSG "cd=\n"\
 "cd:\tcd [dir]\n\n"\
 "	Change the shell working directory.\n\n"\
