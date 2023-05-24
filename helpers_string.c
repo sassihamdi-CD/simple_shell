@@ -5,6 +5,7 @@
  * @string: pointer to string.
  * Return: length of string.
  */
+
 int str_length(char *string)
 {
 	int length = 0;
@@ -23,6 +24,7 @@ int str_length(char *string)
  * @string: String to be copied
  * Return: pointer to the array
  */
+
 char *str_duplicate(char *string)
 {
 	char *result;
@@ -56,6 +58,7 @@ char *str_duplicate(char *string)
  * @number: number of characters to be compared, 0 if infinite
  * Return: 1 if the strings are equals,0 if the strings are different
  */
+
 int str_compare(char *string1, char *string2, int number)
 {
 	int iterator;
@@ -95,6 +98,7 @@ int str_compare(char *string1, char *string2, int number)
  *
  * Return: pointer to the array
  */
+
 char *str_concat(char *string1, char *string2)
 {
 	char *result;

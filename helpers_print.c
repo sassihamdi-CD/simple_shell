@@ -6,6 +6,7 @@
  * Return: the number of bytes writed or .
  * On error, -1 is returned, and errno is set appropriately.
  */
+
 int _print(char *string)
 {
 	return (write(STDOUT_FILENO, string, str_length(string)));
@@ -16,6 +17,7 @@ int _print(char *string)
  * Return: the number of bytes writed or .
  * On error, -1 is returned, and errno is set appropriately.
  */
+
 int _printe(char *string)
 {
 	return (write(STDERR_FILENO, string, str_length(string)));
@@ -28,6 +30,7 @@ int _printe(char *string)
  * Return: the number of bytes writed or .
  * On error, -1 is returned, and errno is set appropriately.
  */
+
 int _print_error(int errorcode, data_of_program *data)
 {
 	char n_as_string[10] = {'\0'};

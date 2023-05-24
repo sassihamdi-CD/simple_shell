@@ -8,6 +8,7 @@
  *
  * Return: Nothing.
  */
+
 void long_to_string(long number, char *string, int base)
 {
 	int index = 0, inNegative = 0;
@@ -42,6 +43,7 @@ void long_to_string(long number, char *string, int base)
  * @s: pointer to str origen.
  * Return: int of string or 0.
  */
+
 int _atoi(char *s)
 {
 	int sign = 1;
@@ -73,6 +75,7 @@ int _atoi(char *s)
  * @character: string with  chars to be counted
  * Return: int of string or 0.
  */
+
 int count_characters(char *string, char *character)
 {
 	int i = 0, counter = 0;
