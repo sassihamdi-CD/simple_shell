@@ -211,10 +211,6 @@ Please adhere to this project's `code of conduct`.
 
 - [@ADNANE BEN SOUDA](https://www.github.com/adnanebensouda)
 
-
-## Screenshots
-
-![App Screenshot](![](black_logo_alx.png)
-)
+![banner](black_logo_alx.png)
 
 
