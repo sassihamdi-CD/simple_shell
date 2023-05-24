@@ -6,6 +6,7 @@
  * @env: number of values received from the command line
  * Return: zero on succes.
  */
+
 int main(int argc, char *argv[], char *env[])
 {
 	data_of_program data_struct = {NULL}, *data = &data_struct;
@@ -30,6 +31,7 @@ int main(int argc, char *argv[], char *env[])
  * when the signal SIGINT (ctrl + c) is send to the program
  * @UNUSED: option of the prototype
  */
+
 void handle_ctrl_c(int opr UNUSED)
 {
 	_print("\n");
@@ -43,6 +45,7 @@ void handle_ctrl_c(int opr UNUSED)
  * @env: environ pased to the program execution
  * @argc: number of values received from the command line
  */
+
 void inicialize_data(data_of_program *data, int argc, char *argv[], char **env)
 {
 	int i = 0;
@@ -89,6 +92,7 @@ void inicialize_data(data_of_program *data, int argc, char *argv[], char **env)
  * @prompt: prompt to be printed
  * @data: its a infinite loop that shows the prompt
  */
+
 void sisifo(char *prompt, data_of_program *data)
 {
 	int error_code = 0, string_len = 0;
